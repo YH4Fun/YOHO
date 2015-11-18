@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19C336374CF9E07684786598 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C197590D4F20348434E5FA /* libPods.a */; };
+		B386AA6B1BFC3C53001D96DF /* YOHOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B386AA6A1BFC3C53001D96DF /* YOHOTests.m */; };
+		B386AA761BFC3C53001D96DF /* YOHOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B386AA751BFC3C53001D96DF /* YOHOUITests.m */; };
+		B386AABE1BFC4B6C001D96DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B386AABB1BFC4B6C001D96DF /* AppDelegate.m */; };
+		B386AABF1BFC4B6C001D96DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B386AABC1BFC4B6C001D96DF /* Info.plist */; };
+		B386AAC01BFC4B6C001D96DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B386AABD1BFC4B6C001D96DF /* main.m */; };
+		B386AAF21BFC4FAB001D96DF /* ClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B386AAF11BFC4FAB001D96DF /* ClassifyViewController.m */; };
+		B386AAF81BFC4FD0001D96DF /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B386AAF71BFC4FD0001D96DF /* MineViewController.m */; };
+		B386AAFB1BFC4FDE001D96DF /* ShopCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B386AAFA1BFC4FDE001D96DF /* ShopCarViewController.m */; };
+		B386AAFE1BFC4FF4001D96DF /* StrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B386AAFD1BFC4FF4001D96DF /* StrollViewController.m */; };
+		B386AB011BFC5038001D96DF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B386AB001BFC5038001D96DF /* MainViewController.m */; };
+		B386AB041BFC5241001D96DF /* WXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B386AB031BFC5241001D96DF /* WXNavigationController.m */; };
+		B386AB071BFC5696001D96DF /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B386AB061BFC5696001D96DF /* LaunchViewController.m */; };
+		B386AB091BFC61D1001D96DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B386AB081BFC61D1001D96DF /* Assets.xcassets */; };
+		B386AB101BFC7262001D96DF /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B386AB0D1BFC7262001D96DF /* HomePageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B386AA671BFC3C53001D96DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B386AA451BFC3C53001D96DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B386AA4C1BFC3C53001D96DF;
+			remoteInfo = YOHO;
+		};
+		B386AA721BFC3C53001D96DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B386AA451BFC3C53001D96DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B386AA4C1BFC3C53001D96DF;
+			remoteInfo = YOHO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		252D302A47E1ECDB913678DF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		52C197590D4F20348434E5FA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8835367B9706E575126530 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B386AA4D1BFC3C53001D96DF /* YOHO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOHO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B386AA661BFC3C53001D96DF /* YOHOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOHOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B386AA6A1BFC3C53001D96DF /* YOHOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOHOTests.m; sourceTree = "<group>"; };
+		B386AA6C1BFC3C53001D96DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B386AA711BFC3C53001D96DF /* YOHOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOHOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B386AA751BFC3C53001D96DF /* YOHOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOHOUITests.m; sourceTree = "<group>"; };
+		B386AA771BFC3C53001D96DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B386AABA1BFC4B6C001D96DF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B386AABB1BFC4B6C001D96DF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B386AABC1BFC4B6C001D96DF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B386AABD1BFC4B6C001D96DF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B386AAF01BFC4FAB001D96DF /* ClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyViewController.h; sourceTree = "<group>"; };
+		B386AAF11BFC4FAB001D96DF /* ClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyViewController.m; sourceTree = "<group>"; };
+		B386AAF61BFC4FD0001D96DF /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		B386AAF71BFC4FD0001D96DF /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		B386AAF91BFC4FDE001D96DF /* ShopCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCarViewController.h; sourceTree = "<group>"; };
+		B386AAFA1BFC4FDE001D96DF /* ShopCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCarViewController.m; sourceTree = "<group>"; };
+		B386AAFC1BFC4FF4001D96DF /* StrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrollViewController.h; sourceTree = "<group>"; };
+		B386AAFD1BFC4FF4001D96DF /* StrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrollViewController.m; sourceTree = "<group>"; };
+		B386AAFF1BFC5038001D96DF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B386AB001BFC5038001D96DF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B386AB021BFC5241001D96DF /* WXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXNavigationController.h; sourceTree = "<group>"; };
+		B386AB031BFC5241001D96DF /* WXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXNavigationController.m; sourceTree = "<group>"; };
+		B386AB051BFC5696001D96DF /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		B386AB061BFC5696001D96DF /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		B386AB081BFC61D1001D96DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B386AB0C1BFC7262001D96DF /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		B386AB0D1BFC7262001D96DF /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B386AA4A1BFC3C53001D96DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C336374CF9E07684786598 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B386AA631BFC3C53001D96DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B386AA6E1BFC3C53001D96DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B386AA441BFC3C53001D96DF = {
+			isa = PBXGroup;
+			children = (
+				B386AB0A1BFC7262001D96DF /* HomePage(首页) */,
+				B386AAE21BFC4F7D001D96DF /* PreView(入口) */,
+				B386AAD81BFC4F7D001D96DF /* Main */,
+				B386AAB91BFC4B6C001D96DF /* other */,
+				B386AACF1BFC4F7D001D96DF /* Classify(分类) */,
+				B386AADE1BFC4F7D001D96DF /* Mine(我的) */,
+				B386AAE61BFC4F7D001D96DF /* ShopCar(购物车) */,
+				B386AAEA1BFC4F7D001D96DF /* StrollAround(逛) */,
+				B386AA691BFC3C53001D96DF /* YOHOTests */,
+				B386AA741BFC3C53001D96DF /* YOHOUITests */,
+				B386AA4E1BFC3C53001D96DF /* Products */,
+				D94A7BB70746CBF3238B94D1 /* Pods */,
+				BB6E300AE9C3AF43CBDA589A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B386AA4E1BFC3C53001D96DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B386AA4D1BFC3C53001D96DF /* YOHO.app */,
+				B386AA661BFC3C53001D96DF /* YOHOTests.xctest */,
+				B386AA711BFC3C53001D96DF /* YOHOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B386AA691BFC3C53001D96DF /* YOHOTests */ = {
+			isa = PBXGroup;
+			children = (
+				B386AA6A1BFC3C53001D96DF /* YOHOTests.m */,
+				B386AA6C1BFC3C53001D96DF /* Info.plist */,
+			);
+			path = YOHOTests;
+			sourceTree = "<group>";
+		};
+		B386AA741BFC3C53001D96DF /* YOHOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B386AA751BFC3C53001D96DF /* YOHOUITests.m */,
+				B386AA771BFC3C53001D96DF /* Info.plist */,
+			);
+			path = YOHOUITests;
+			sourceTree = "<group>";
+		};
+		B386AAB91BFC4B6C001D96DF /* other */ = {
+			isa = PBXGroup;
+			children = (
+				B386AB081BFC61D1001D96DF /* Assets.xcassets */,
+				B386AABA1BFC4B6C001D96DF /* AppDelegate.h */,
+				B386AABB1BFC4B6C001D96DF /* AppDelegate.m */,
+				B386AABC1BFC4B6C001D96DF /* Info.plist */,
+				B386AABD1BFC4B6C001D96DF /* main.m */,
+			);
+			name = other;
+			path = YOHO/other;
+			sourceTree = "<group>";
+		};
+		B386AACF1BFC4F7D001D96DF /* Classify(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				B386AAD01BFC4F7D001D96DF /* ClassifyViewController */,
+				B386AAD21BFC4F7D001D96DF /* Model */,
+				B386AAD31BFC4F7D001D96DF /* View */,
+			);
+			name = "Classify(分类)";
+			path = "YOHO/Classify(分类)";
+			sourceTree = "<group>";
+		};
+		B386AAD01BFC4F7D001D96DF /* ClassifyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B386AAF01BFC4FAB001D96DF /* ClassifyViewController.h */,
+				B386AAF11BFC4FAB001D96DF /* ClassifyViewController.m */,
+			);
+			path = ClassifyViewController;
+			sourceTree = "<group>";
+		};
+		B386AAD21BFC4F7D001D96DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B386AAD31BFC4F7D001D96DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B386AAD81BFC4F7D001D96DF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B386AAD91BFC4F7D001D96DF /* MainViewController */,
+				B386AADC1BFC4F7D001D96DF /* Model */,
+				B386AADD1BFC4F7D001D96DF /* View */,
+			);
+			name = Main;
+			path = YOHO/Main;
+			sourceTree = "<group>";
+		};
+		B386AAD91BFC4F7D001D96DF /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B386AAFF1BFC5038001D96DF /* MainViewController.h */,
+				B386AB001BFC5038001D96DF /* MainViewController.m */,
+				B386AB021BFC5241001D96DF /* WXNavigationController.h */,
+				B386AB031BFC5241001D96DF /* WXNavigationController.m */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		B386AADC1BFC4F7D001D96DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B386AADD1BFC4F7D001D96DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B386AADE1BFC4F7D001D96DF /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				B386AADF1BFC4F7D001D96DF /* MineViewController */,
+				B386AAE01BFC4F7D001D96DF /* Model */,
+				B386AAE11BFC4F7D001D96DF /* View */,
+			);
+			name = "Mine(我的)";
+			path = "YOHO/Mine(我的)";
+			sourceTree = "<group>";
+		};
+		B386AADF1BFC4F7D001D96DF /* MineViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B386AAF61BFC4FD0001D96DF /* MineViewController.h */,
+				B386AAF71BFC4FD0001D96DF /* MineViewController.m */,
+			);
+			path = MineViewController;
+			sourceTree = "<group>";
+		};
+		B386AAE01BFC4F7D001D96DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B386AAE11BFC4F7D001D96DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B386AAE21BFC4F7D001D96DF /* PreView(入口) */ = {
+			isa = PBXGroup;
+			children = (
+				B386AAE31BFC4F7D001D96DF /* Model */,
+				B386AAE41BFC4F7D001D96DF /* PreViewController */,
+				B386AAE51BFC4F7D001D96DF /* View */,
+			);
+			name = "PreView(入口)";
+			path = "YOHO/PreView(入口)";
+			sourceTree = "<group>";
+		};
+		B386AAE31BFC4F7D001D96DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B386AAE41BFC4F7D001D96DF /* PreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B386AB051BFC5696001D96DF /* LaunchViewController.h */,
+				B386AB061BFC5696001D96DF /* LaunchViewController.m */,
+			);
+			path = PreViewController;
+			sourceTree = "<group>";
+		};
+		B386AAE51BFC4F7D001D96DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B386AAE61BFC4F7D001D96DF /* ShopCar(购物车) */ = {
+			isa = PBXGroup;
+			children = (
+				B386AAE71BFC4F7D001D96DF /* Model */,
+				B386AAE81BFC4F7D001D96DF /* ShopCarViewController */,
+				B386AAE91BFC4F7D001D96DF /* View */,
+			);
+			name = "ShopCar(购物车)";
+			path = "YOHO/ShopCar(购物车)";
+			sourceTree = "<group>";
+		};
+		B386AAE71BFC4F7D001D96DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B386AAE81BFC4F7D001D96DF /* ShopCarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B386AAF91BFC4FDE001D96DF /* ShopCarViewController.h */,
+				B386AAFA1BFC4FDE001D96DF /* ShopCarViewController.m */,
+			);
+			path = ShopCarViewController;
+			sourceTree = "<group>";
+		};
+		B386AAE91BFC4F7D001D96DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B386AAEA1BFC4F7D001D96DF /* StrollAround(逛) */ = {
+			isa = PBXGroup;
+			children = (
+				B386AAEB1BFC4F7D001D96DF /* Model */,
+				B386AAEC1BFC4F7D001D96DF /* StrollAroundViewControllr */,
+				B386AAED1BFC4F7D001D96DF /* View */,
+			);
+			name = "StrollAround(逛)";
+			path = "YOHO/StrollAround(逛)";
+			sourceTree = "<group>";
+		};
+		B386AAEB1BFC4F7D001D96DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B386AAEC1BFC4F7D001D96DF /* StrollAroundViewControllr */ = {
+			isa = PBXGroup;
+			children = (
+				B386AAFC1BFC4FF4001D96DF /* StrollViewController.h */,
+				B386AAFD1BFC4FF4001D96DF /* StrollViewController.m */,
+			);
+			path = StrollAroundViewControllr;
+			sourceTree = "<group>";
+		};
+		B386AAED1BFC4F7D001D96DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B386AB0A1BFC7262001D96DF /* HomePage(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				B386AB0B1BFC7262001D96DF /* HomePageViewController */,
+				B386AB0E1BFC7262001D96DF /* Model */,
+				B386AB0F1BFC7262001D96DF /* View */,
+			);
+			name = "HomePage(首页)";
+			path = "YOHO/HomePage(首页)";
+			sourceTree = "<group>";
+		};
+		B386AB0B1BFC7262001D96DF /* HomePageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B386AB0C1BFC7262001D96DF /* HomePageViewController.h */,
+				B386AB0D1BFC7262001D96DF /* HomePageViewController.m */,
+			);
+			path = HomePageViewController;
+			sourceTree = "<group>";
+		};
+		B386AB0E1BFC7262001D96DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B386AB0F1BFC7262001D96DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB6E300AE9C3AF43CBDA589A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52C197590D4F20348434E5FA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D94A7BB70746CBF3238B94D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F8835367B9706E575126530 /* Pods.debug.xcconfig */,
+				252D302A47E1ECDB913678DF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B386AA4C1BFC3C53001D96DF /* YOHO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B386AA7A1BFC3C53001D96DF /* Build configuration list for PBXNativeTarget "YOHO" */;
+			buildPhases = (
+				7E4A5C14572E20A2B64B860F /* Check Pods Manifest.lock */,
+				B386AA491BFC3C53001D96DF /* Sources */,
+				B386AA4A1BFC3C53001D96DF /* Frameworks */,
+				B386AA4B1BFC3C53001D96DF /* Resources */,
+				0624F8FB946F8E143A2B331E /* Embed Pods Frameworks */,
+				1B1EB583865B77D75FBD1FAE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YOHO;
+			productName = YOHO;
+			productReference = B386AA4D1BFC3C53001D96DF /* YOHO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B386AA651BFC3C53001D96DF /* YOHOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B386AA7D1BFC3C53001D96DF /* Build configuration list for PBXNativeTarget "YOHOTests" */;
+			buildPhases = (
+				B386AA621BFC3C53001D96DF /* Sources */,
+				B386AA631BFC3C53001D96DF /* Frameworks */,
+				B386AA641BFC3C53001D96DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B386AA681BFC3C53001D96DF /* PBXTargetDependency */,
+			);
+			name = YOHOTests;
+			productName = YOHOTests;
+			productReference = B386AA661BFC3C53001D96DF /* YOHOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B386AA701BFC3C53001D96DF /* YOHOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B386AA801BFC3C53001D96DF /* Build configuration list for PBXNativeTarget "YOHOUITests" */;
+			buildPhases = (
+				B386AA6D1BFC3C53001D96DF /* Sources */,
+				B386AA6E1BFC3C53001D96DF /* Frameworks */,
+				B386AA6F1BFC3C53001D96DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B386AA731BFC3C53001D96DF /* PBXTargetDependency */,
+			);
+			name = YOHOUITests;
+			productName = YOHOUITests;
+			productReference = B386AA711BFC3C53001D96DF /* YOHOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B386AA451BFC3C53001D96DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = code4Fun;
+				TargetAttributes = {
+					B386AA4C1BFC3C53001D96DF = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B386AA651BFC3C53001D96DF = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = DLAPUP575X;
+						TestTargetID = B386AA4C1BFC3C53001D96DF;
+					};
+					B386AA701BFC3C53001D96DF = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = DLAPUP575X;
+						TestTargetID = B386AA4C1BFC3C53001D96DF;
+					};
+				};
+			};
+			buildConfigurationList = B386AA481BFC3C53001D96DF /* Build configuration list for PBXProject "YOHO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B386AA441BFC3C53001D96DF;
+			productRefGroup = B386AA4E1BFC3C53001D96DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B386AA4C1BFC3C53001D96DF /* YOHO */,
+				B386AA651BFC3C53001D96DF /* YOHOTests */,
+				B386AA701BFC3C53001D96DF /* YOHOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B386AA4B1BFC3C53001D96DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B386AB091BFC61D1001D96DF /* Assets.xcassets in Resources */,
+				B386AABF1BFC4B6C001D96DF /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B386AA641BFC3C53001D96DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B386AA6F1BFC3C53001D96DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0624F8FB946F8E143A2B331E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B1EB583865B77D75FBD1FAE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E4A5C14572E20A2B64B860F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B386AA491BFC3C53001D96DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B386AAFE1BFC4FF4001D96DF /* StrollViewController.m in Sources */,
+				B386AAF21BFC4FAB001D96DF /* ClassifyViewController.m in Sources */,
+				B386AB101BFC7262001D96DF /* HomePageViewController.m in Sources */,
+				B386AABE1BFC4B6C001D96DF /* AppDelegate.m in Sources */,
+				B386AB071BFC5696001D96DF /* LaunchViewController.m in Sources */,
+				B386AB041BFC5241001D96DF /* WXNavigationController.m in Sources */,
+				B386AB011BFC5038001D96DF /* MainViewController.m in Sources */,
+				B386AAF81BFC4FD0001D96DF /* MineViewController.m in Sources */,
+				B386AAFB1BFC4FDE001D96DF /* ShopCarViewController.m in Sources */,
+				B386AAC01BFC4B6C001D96DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B386AA621BFC3C53001D96DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B386AA6B1BFC3C53001D96DF /* YOHOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B386AA6D1BFC3C53001D96DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B386AA761BFC3C53001D96DF /* YOHOUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B386AA681BFC3C53001D96DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B386AA4C1BFC3C53001D96DF /* YOHO */;
+			targetProxy = B386AA671BFC3C53001D96DF /* PBXContainerItemProxy */;
+		};
+		B386AA731BFC3C53001D96DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B386AA4C1BFC3C53001D96DF /* YOHO */;
+			targetProxy = B386AA721BFC3C53001D96DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B386AA781BFC3C53001D96DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B386AA791BFC3C53001D96DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B386AA7B1BFC3C53001D96DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F8835367B9706E575126530 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/YOHO/other/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = code4Fun.YOHO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B386AA7C1BFC3C53001D96DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 252D302A47E1ECDB913678DF /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/YOHO/other/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = code4Fun.YOHO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B386AA7E1BFC3C53001D96DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YOHOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = code4Fun.YOHOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YOHO.app/YOHO";
+			};
+			name = Debug;
+		};
+		B386AA7F1BFC3C53001D96DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YOHOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = code4Fun.YOHOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YOHO.app/YOHO";
+			};
+			name = Release;
+		};
+		B386AA811BFC3C53001D96DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YOHOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = code4Fun.YOHOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YOHO;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B386AA821BFC3C53001D96DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YOHOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = code4Fun.YOHOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YOHO;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B386AA481BFC3C53001D96DF /* Build configuration list for PBXProject "YOHO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B386AA781BFC3C53001D96DF /* Debug */,
+				B386AA791BFC3C53001D96DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B386AA7A1BFC3C53001D96DF /* Build configuration list for PBXNativeTarget "YOHO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B386AA7B1BFC3C53001D96DF /* Debug */,
+				B386AA7C1BFC3C53001D96DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B386AA7D1BFC3C53001D96DF /* Build configuration list for PBXNativeTarget "YOHOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B386AA7E1BFC3C53001D96DF /* Debug */,
+				B386AA7F1BFC3C53001D96DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B386AA801BFC3C53001D96DF /* Build configuration list for PBXNativeTarget "YOHOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B386AA811BFC3C53001D96DF /* Debug */,
+				B386AA821BFC3C53001D96DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B386AA451BFC3C53001D96DF /* Project object */;
+}
