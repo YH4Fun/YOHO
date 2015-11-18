@@ -11,6 +11,7 @@
 @interface LaunchViewController ()
 @property (nonatomic, strong) UIImageView *launchView;
 @property (nonatomic, weak) NSTimer *timer;
+@property (nonatomic, strong) UIButton *boyButton;
 
 @end
 
@@ -65,6 +66,7 @@
     [boyButton setImage:[UIImage imageNamed:@"entrance_highlight_1"] forState:UIControlStateHighlighted];
     [self.view addSubview:boyButton];
     [boyButton addTarget:self action:@selector(modalToMainView) forControlEvents:UIControlEventTouchDown];
+    self.boyButton = boyButton;
 
     UIButton *girlButton = [[UIButton alloc] initWithFrame:CGRectMake(-170, 200, 714, 165)];
     [girlButton setImage:[UIImage imageNamed:@"entrance_2"] forState:UIControlStateNormal];
@@ -88,10 +90,14 @@
  */
 - (void)modalToMainView
 {
+    [self.timer invalidate];
     MainViewController *mainViewController = [[MainViewController alloc] init];
-    [UIView animateWithDuration:2 animations:^{
-        [self presentViewController:mainViewController animated:YES completion:nil];
-    }];
+    CATransition *transition = [CATransition animation];
+    transition.type = @"push";
+    transition.subtype = @"fromTop";
+    transition.duration = 1.f;
+    [[UIApplication sharedApplication].keyWindow.layer addAnimation:transition forKey:nil];
+    [UIApplication sharedApplication].keyWindow.rootViewController = mainViewController;
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle
